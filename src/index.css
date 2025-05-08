@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .message-content {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  /* Add these styles to your CSS */
+.message-timestamp {
+  font-family: monospace;
+  letter-spacing: -0.5px;
+  opacity: 0.8;
+}
+
+.message-bubble {
+  min-width: 120px;
+  max-width: min(80%, 600px);
+}
