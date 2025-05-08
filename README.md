@@ -27,7 +27,7 @@
 
 ## 📷 Preview
 
-![ChatWithMe Screenshot]('/project-screenshot.png')
+![ChatWithMe Screenshot](./screenshots/project-screenshot.png)
 
 > *A clean, professional interface focused on clarity and ease of use.*
 
